@@ -1,10 +1,10 @@
 {
-    "name": "marcanuy/popularity",
-    "description": "A Laravel 4 package for tracking popular elements of a website in a time frame",
+    "name": "Sheller/popularity",
+    "description": "A Laravel 5 package for tracking popular elements of a website in a time frame",
     "authors": [
         {
-            "name": "Marcelo Canina",
-            "email": "me@marcanuy.com"
+            "name": "Curt Sheller",
+            "email": "curt@curtsheller.com"
         }
     ],
     "require": {
@@ -17,7 +17,7 @@
 	    "src/models"
         ],
         "psr-0": {
-            "Marcanuy\\Popularity\\": "src/"
+            "Sheller\\Popularity\\": "src/"
         }
     },
     "minimum-stability": "dev"
