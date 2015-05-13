@@ -1,4 +1,4 @@
-<?php namespace Marcanuy\Popularity;
+<?php namespace CSP\Popularity;
 
 class Popularity {
 
