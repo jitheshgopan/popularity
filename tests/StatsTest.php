@@ -1,7 +1,7 @@
 <?php
 
-use Marcanuy\Popularity\Stats;
-use Marcanuy\Popularity\ExamplePost;
+use CSP\Popularity\Stats;
+use CSP\Popularity\ExamplePost;
 
 class StatsTest extends Illuminate\Foundation\Testing\TestCase {
 
