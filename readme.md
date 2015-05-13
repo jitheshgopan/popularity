@@ -10,7 +10,7 @@ This is free software distributed under the terms of the MIT license
 
 ## Additional information
 
-Laravel 5 test
+Laravel 5 test forked from marcanuy/popularity Laravel 4 version.
 
 Inspired by and based on [WP-Most-Popular](https://github.com/MattGeri/WP-Most-Popular)
 
