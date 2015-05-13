@@ -1,4 +1,4 @@
-<?php namespace Marcanuy\Popularity\Facades;
+<?php namespace CSP\Popularity\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
