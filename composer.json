@@ -1,5 +1,5 @@
 {
-    "name": "curtsheller/popularity",
+    "name": "jitheshgopan/popularity",
     "description": "A Laravel 5 package for tracking popular elements of a website in a time frame",
     "authors": [
         {
@@ -17,7 +17,7 @@
 	    "src/models"
         ],
         "psr-0": {
-            "CSP\\Popularity\\": "src/"
+            "Jitheshgopan\\Popularity\\": "src/"
         }
     },
     "minimum-stability": "dev"

@@ -1,14 +1,16 @@
-<?php namespace Jitheshgopan\Popularity;
-
-use \Illuminate\Database\Eloquent\Model;
-use \Jitheshgopan\Popularity\PopularityInterface;
-
+<?php
 /**
- * Class that shows how to implement the polymorphic relation in other
- * models that extends Eloquent, also used for testing.
+ * Created by PhpStorm.
+ * User: jitheshgopan
+ * Date: 03/01/16
+ * Time: 1:49 PM
  */
-class ExamplePost extends Model implements PopularityInterface{
-    
+
+namespace Jitheshgopan\Popularity;
+
+
+trait PopularityStatsTrait {
+
     public function popularityStats()
     {
         return $this->morphOne('Jitheshgopan\Popularity\Stats', 'trackable');

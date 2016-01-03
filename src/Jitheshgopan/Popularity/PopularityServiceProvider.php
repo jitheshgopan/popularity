@@ -1,4 +1,4 @@
-<?php namespace CSP\Popularity;
+<?php namespace Jitheshgopan\Popularity;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,9 +18,9 @@ class PopularityServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('marcanuy/popularity');
-
-        include __DIR__.'/../../routes.php';
+        $this->publishes([
+            __DIR__.'/../../migrations/' => database_path('/migrations')
+        ], 'migrations');
 	}
 
 	/**
@@ -39,8 +39,8 @@ class PopularityServiceProvider extends ServiceProvider {
         $this->app->booting(function()
         {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Stats', 'Marcanuy\Popularity\Stats');
-            $loader->alias('Popularity', 'Marcanuy\Popularity\Facades\Popularity');
+            $loader->alias('Stats', 'Jitheshgopan\Popularity\Stats');
+            $loader->alias('Popularity', 'Jitheshgopan\Popularity\Facades\Popularity');
         });
 	}
 

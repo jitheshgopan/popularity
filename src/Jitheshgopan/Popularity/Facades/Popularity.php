@@ -1,4 +1,4 @@
-<?php namespace CSP\Popularity\Facades;
+<?php namespace Jitheshgopan\Popularity\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,4 +1,4 @@
-<?php namespace CSP\Popularity;
+<?php namespace Jitheshgopan\Popularity;
 
 class Popularity {
 

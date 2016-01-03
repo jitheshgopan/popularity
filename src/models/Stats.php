@@ -1,4 +1,4 @@
-<?php namespace Marcanuy\Popularity;
+<?php namespace Jitheshgopan\Popularity;
 
 use \Illuminate\Database\Eloquent\Model;
 
