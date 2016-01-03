@@ -2,10 +2,18 @@
     "name": "jitheshgopan/popularity",
     "description": "A Laravel 5 package for tracking popular elements of a website in a time frame",
     "authors": [
-        {
+      {
+        "name": "Jithesh gopan",
+        "email": "jitheshgopan@gmail.com"
+      },
+      {
             "name": "Curt Sheller",
             "email": "curt@curtsheller.com"
-        }
+      },
+      {
+        "name": "Marcelo Canina",
+        "email": "me@marcanuy.com"
+      }
     ],
     "require": {
         "php": ">=5.4.0",
