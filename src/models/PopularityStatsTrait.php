@@ -56,6 +56,7 @@ trait PopularityStatsTrait {
         });
         $query->where($statsTable . '.trackable_type', '=', $trackableType);
         $query->where( $statsType, '!=', 0 );
+        $query->select($thisTable . '.*');
         $query->orderBy( $statsType, $orderType );
         return $query;
     }
